@@ -12,7 +12,9 @@ class Calculator:
         tk.Button(master, text='8', command=self.eight_button).grid(row=1, column=1)
         tk.Button(master, text='9', command=self.nine_button).grid(row=1, column=2)
         tk.Button(master, text='+', command=self.plus_button).grid(row=1, column=3)
-        tk.Button(master, text='4')
+        tk.Button(master, text='4', command=self.four_button).grid(row=2)
+        tk.Button(master, text='5', command=self.five_button).grid(row=2, column=1)
+        tk.Button(master, text='6', command=self.six_button).grid(row=2, column=2)
 
     def one_button(self):
         pass
